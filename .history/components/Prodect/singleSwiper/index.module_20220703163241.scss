@@ -1,0 +1,24 @@
+.MainSwiper {
+    width: 100%;
+    height: 400px;
+    background: #f1e5d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Main {
+    width: calc(90% - 200px);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 5%;
+}
+
+.SwiperSlide {
+    width: 100%;
+    height: 250;
+}

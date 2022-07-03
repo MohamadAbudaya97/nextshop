@@ -1,0 +1,42 @@
+.MainMenu {
+    width: 100%;
+    height: 60px;
+    background: white;
+}
+
+.MenuButton {
+    width: 220px;
+    height: 60px;
+}
+
+.MenuItem {
+    width: 220px;
+    hi
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Menu {
+    height: 400px;
+}
+
+.MainSwiper {
+    width: 100%;
+    height: 400px;
+    background: #f1e5d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main {
+    width: calc(90% - 200px);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 5%;
+}

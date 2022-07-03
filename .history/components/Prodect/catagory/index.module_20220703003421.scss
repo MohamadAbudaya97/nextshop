@@ -1,0 +1,22 @@
+.item {
+    width: 95%;
+    padding-top: 0%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transform: 0.5s;
+    transition: 0.5s;
+
+    &:hover {
+        border-color: #007bff;
+    }
+
+}
+
+.Image {
+    position: relative;
+    width: 100px;
+    height: 76px;
+}

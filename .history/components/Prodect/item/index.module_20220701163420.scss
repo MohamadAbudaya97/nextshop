@@ -1,0 +1,31 @@
+.mainImage {
+    position: relative;
+    cursor: pointer;
+    height: 9vw;
+    background: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    position: relative;
+    height: 100%;
+    width: 70%;
+}
+
+.option {
+    height: 60px;
+}
+
+.discount {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    background: #FF5252;
+    z-index: 1;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+    font-size: small;
+}

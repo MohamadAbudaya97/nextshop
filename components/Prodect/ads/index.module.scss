@@ -1,0 +1,16 @@
+.Img {
+    cursor: pointer;
+    position: relative;
+    padding-top: 56.25%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.imageHover {
+    transform: 0.3s;
+    transition: 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

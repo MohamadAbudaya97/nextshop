@@ -1,0 +1,23 @@
+.item {
+    width: 60%;
+    height: 123px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transform: 0.5s;
+    transition: 0.5s;
+
+    &:hover {
+        border-color: #007bff;
+    }
+
+}
+
+.Image {
+    position: relative;
+    width: 100px;
+    height: 76px;
+}
