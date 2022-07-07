@@ -37,7 +37,10 @@
       ],
       "@Hooks/*": [
         "hooks/*"
-      ]
+      ],
+      "@Redux/*": [
+        "redux/*"
+      ],
     }
   },
   "include": [

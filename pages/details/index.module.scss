@@ -1,0 +1,61 @@
+$colorSecandary: #666666;
+
+.image {
+    width: 100%;
+    aspect-ratio: 1/1;
+    transform: scale(0.95);
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 992px) {
+        aspect-ratio: 2/1;
+        border-radius: 0px;
+    }
+}
+
+.imagescal {
+    transform: scale(0.8);
+    width: 98%;
+}
+
+.imageMain {
+    width: 98%;
+    position: relative;
+    right: 2%;
+    background: white;
+    border-radius: 5px;
+
+    @media (max-width: 992px) {
+        width: 100%;
+        right: 0%;
+        border-radius: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
+
+.MainDeteals {
+    background: white;
+    border-radius: 5px;
+    padding-top: 25px;
+
+    @media (max-width: 992px) {
+        border-radius: 0px;
+    }
+}
+
+.MainStokEstimated {
+    width: 100%;
+    height: 90px;
+    border: 1px solid #EEEEEE;
+    background: rgb(255 204 0 / 3%);
+    border-radius: 5px;
+}
+
+.MainDetails {
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+}

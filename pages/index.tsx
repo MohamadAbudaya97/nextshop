@@ -4,6 +4,7 @@ import SingleSwiper from '@Components/Prodect/singleSwiper'
 import Head from 'next/head'
 import Ads from '@Components/Prodect/ads'
 import Catagory from '@Components/Prodect/catagory'
+
 const Home: NextPage = () => {
   return (
     <>
@@ -21,4 +22,6 @@ const Home: NextPage = () => {
     </>
   )
 }
+
+
 export default Home

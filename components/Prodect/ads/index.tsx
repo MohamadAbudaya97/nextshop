@@ -3,7 +3,7 @@ import Style from './index.module.scss'
 import Image from 'next/image'
 const Section: NextPage = () => {
     return(
-            <div className="row m-0">
+            <div className="row">
                 <div className="col-md-4 col-sm-12 mt-4">
                     <div className={Style.Img}>
                     <Image className={Style.imageHover} src={`https://chtstudio.com/demo/ecomart/images/others/of1.jpg`} layout="fill" alt="sadasd" priority/>

@@ -23,7 +23,7 @@ const Index: NextPage = () => {
       <SwiperSlide className={Style.SwiperSlide}>
         <div className="container w-100 h-100">
           <div className="row w-100 h-100 d-flex justify-content-center align-items-center">
-            <div className="col-md-3">
+            <div className="col-md-3 d-flex justify-content-center align-items-center" >
                <div className={Style.image}>
                       <Image   src="https://chtstudio.com/demo/ecomart/images/bg/s5.png" alt="sadasd" layout='fill' priority/>
                </div>

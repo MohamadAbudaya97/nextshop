@@ -63,35 +63,3 @@ const Index: NextPage = () => {
 }
 
 export default Index
-/*
-    <div className="row  white w-100 " dir="rtl">
-
-
-      <div className="col-2 d-flex  align-items-center">
-        <Tooltip title="عربة التسوق" className='m-3'>
-          <IconButton aria-label="cart">
-            <StyledBadge badgeContent={4} color="primary">
-              <LocalMallIcon />
-            </StyledBadge>
-          </IconButton>
-        </Tooltip>
-        <Tooltip title="قائمة الرغبات" className='m-3'>
-        <IconButton aria-label="cart">
-            <StyledBadge badgeContent={1} color="primary">
-              <FavoriteBorderIcon />
-            </StyledBadge>
-        </IconButton>
-        </Tooltip>
-        <Tooltip title="قارن" className='m-3'>
-        <IconButton aria-label="cart">
-            <StyledBadge badgeContent={0} color="primary">
-              <CompareArrowsIcon />
-            </StyledBadge>
-        </IconButton>
-        </Tooltip>
-      </div>
-    </div>
-     <Divider/>
-
-
-*/

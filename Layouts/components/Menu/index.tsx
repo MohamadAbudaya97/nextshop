@@ -16,7 +16,7 @@ import NotesIcon from '@mui/icons-material/Notes';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
 import { useState } from 'react';
 const Index: NextPage = () => {
-    const [open,setOpen] = useState(true)
+    const [open,setOpen] = useState(false)
     const [position,setPosition]=useState(0)
     useEffect(() => {
     window.addEventListener('scroll', ()=>{

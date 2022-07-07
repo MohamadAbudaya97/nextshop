@@ -1,13 +1,20 @@
 @import 'swiper/css';
 @import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap');
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background: rgb(242, 243, 248);
+}
+
+html {
+  font-family: 'Noto Naskh Arabic', serif;
+}
+
+body {
+  font-family: 'Noto Naskh Arabic', serif;
 }
 
 a {
@@ -17,6 +24,7 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Noto Naskh Arabic', serif;
 }
 
 .blue {
@@ -35,6 +43,10 @@ a {
   background: white;
 }
 
+.radius {
+  border-radius: 5px;
+}
+
 .margin {
   margin-top: 30px;
 }
@@ -47,6 +59,27 @@ a {
   }
 }
 
+.gray {
+  background: #F4F4F4;
+}
+
 .mainMenuG {
   height: 45px;
 }
+
+.h-90 {
+  height: 90px;
+}
+
+.colorSecandary {
+  color: #666666;
+}
+
+.primaryColor {
+  color: #343333;
+}
+
+.h20 {
+  height: 20px;
+}
+
