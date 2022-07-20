@@ -1,0 +1,21 @@
+.Main {
+    cursor: pointer;
+    transform: 0.5s;
+    transition: 0.5s;
+
+    &:hover {
+        .Editable {
+            display: block;
+        }
+    }
+
+}
+
+.Editable {
+    position: absolute;
+    right: 20px;
+    margin-top: 20px;
+    z-index: 5;
+    display: none;
+
+}
