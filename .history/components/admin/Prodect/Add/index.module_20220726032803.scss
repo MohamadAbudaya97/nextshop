@@ -1,0 +1,18 @@
+.add {
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+}
+
+.Main {
+    width: 50%;
+    position: absolute;
+    right: 25%;
+    top: 65px;
+    border-radius: 8px;
+    height: 500px;
+    background: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
