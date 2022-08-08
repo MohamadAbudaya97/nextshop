@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2018",
+    "baseUrl": ".",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "esnext.asynciterable"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@DBConnect": [
+        "db/config/index.ts"
+      ],
+      "@Models/*": [
+        "db/models/*"
+      ],
+      "@Graphql/*": [
+        "graphql/*"
+      ],
+      "@Components/*": [
+        "components/*"
+      ],
+      "@Hooks/*": [
+        "hooks/*"
+      ],
+      "@Interface/*": [
+        "interface/*"
+      ],
+      "@Redux/*": [
+        "redux/*"
+      ],
+      "@Context/*": [
+        "context/*"
+      ],
+      "@Services/*": [
+        "services/*"
+      ],
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "db/config/index.ts",
+    "db/models/prodect.models.ts",
+    "context/setting.ts"
+,
+"server/index.js"
+],
+  "exclude": ["node_modules"]
+}

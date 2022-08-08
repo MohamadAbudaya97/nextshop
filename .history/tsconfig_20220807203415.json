@@ -1,0 +1,68 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowJs": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "isolatedModules": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@DBConnect": [
+        "db/config/index.ts"
+      ],
+      "@Models/*": [
+        "db/models/*"
+      ],
+      "@Graphql/*": [
+        "graphql/*"
+      ],
+      "@Components/*": [
+        "components/*"
+      ],
+      "@Hooks/*": [
+        "hooks/*"
+      ],
+      "@Interface/*": [
+        "interface/*"
+      ],
+      "@Redux/*": [
+        "redux/*"
+      ],
+      "@Context/*": [
+        "context/*"
+      ],
+      "@Services/*": [
+        "services/*"
+      ]
+    },
+    "incremental": true
+  },
+  "exclude": [
+    "dist",
+    ".next",
+    "out",
+    "next.config.js"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}

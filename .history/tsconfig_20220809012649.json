@@ -1,0 +1,61 @@
+
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "incremental": true
+  },
+  "paths": {
+    "@DBConnect": [
+      "db/config/index.ts"
+    ],
+    "@Models/*": [
+      "db/models/*"
+    ],
+    "@Graphql/*": [
+      "graphql/*"
+    ],
+    "@Components/*": [
+      "components/*"
+    ],
+    "@Hooks/*": [
+      "hooks/*"
+    ],
+    "@Interface/*": [
+      "interface/*"
+    ],
+    "@Redux/*": [
+      "redux/*"
+    ],
+    "@Context/*": [
+      "context/*"
+    ],
+    "@Services/*": [
+      "services/*"
+    ],
+      },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "blocks/Image/sizes.js"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
