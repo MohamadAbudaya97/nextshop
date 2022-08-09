@@ -1,9 +1,7 @@
 const express = require('express')
 const next = require('next')
 const mongoose = require('mongoose');
-const {
-  ApolloServerPluginLandingPageLocalDefault
-} = require('apollo-server-core');
+
 const { createServer } =require("http");
 
 const { ApolloServer, gql } = require("apollo-server-express");
@@ -56,11 +54,11 @@ const serverCleanup = useServer({ schema }, wsServer);
 const server = new ApolloServer({
   schema,
   csrfPrevention: true,
-  cache: "bounded",
+  
   plugins: [
     // Proper shutdown for the HTTP server.
     ApolloServerPluginDrainHttpServer({ httpServer }),
-    ApolloServerPluginLandingPageLocalDefault({ embed: true }),
+
     // Proper shutdown for the WebSocket server.
     {
       async serverWillStart() {

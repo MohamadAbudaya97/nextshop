@@ -57,6 +57,10 @@ const server = new ApolloServer({
   schema,
   csrfPrevention: true,
   cache: "bounded",
+  cors: {
+    origin: ["https://www.your-app.example", "https://studio.apollographql.com"],
+    credentials: true
+  },
   plugins: [
     // Proper shutdown for the HTTP server.
     ApolloServerPluginDrainHttpServer({ httpServer }),
