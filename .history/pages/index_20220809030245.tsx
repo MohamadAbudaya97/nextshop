@@ -4,7 +4,7 @@ import SingleSwiper from '@Components/Prodect/singleSwiper'
 import Head from 'next/head'
 import Ads from '@Components/Prodect/ads'
 import Catagory from '@Components/Prodect/catagory'
-import { gql, useQuery } from "@apollo/client";
+  import { gql, useQuery } from "@apollo/client";
 
 const Home: NextPage = () => {
   const { loading, error, data } = useQuery(
